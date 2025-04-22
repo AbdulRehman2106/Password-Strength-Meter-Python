@@ -147,15 +147,7 @@ def main():
             time.sleep(0.5)
             check_password_strength(password)
     
-    st.markdown("---")
-    st.markdown("""
-    <div style="text-align: center; color: #666; font-size: 14px;">
-    Created with Streamlit | 🔒 Keep your accounts secure
-    </div>
-    """, unsafe_allow_html=True)
-
-
-st.markdown("<div class='footer'>Created By Abdul Rehman</div>", unsafe_allow_html=True)
+    st.markdown("<div class='footer'>Created By Abdul Rehman</div>", unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
